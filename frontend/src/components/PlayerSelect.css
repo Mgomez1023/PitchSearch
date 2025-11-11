@@ -1,0 +1,16 @@
+.player-select {
+  margin-bottom: 30px;
+}
+
+.player-select label {
+  font-weight: bold;
+  color:#ccc;
+}
+
+.player-select select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color:#000000;
+  background-color: #ccc;
+}

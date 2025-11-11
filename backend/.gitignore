@@ -1,0 +1,15 @@
+#Ignore Local Database
+pitches.db
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment/config files (if you ever add them)
+.env
+
+#Ignore README
+README.md

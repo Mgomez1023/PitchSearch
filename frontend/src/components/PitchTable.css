@@ -1,0 +1,31 @@
+.pitch-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  align-self: center;
+  background-color: #1E451F;
+}
+
+.pitch-table th {
+    max-width: 50px;
+}
+
+.pitch-table th,
+.pitch-table td {
+  border: 1px solid #ddd;
+  padding: 3px;
+  text-align: center;
+}
+
+.pitch-table th {
+  background-color: #313131;
+  font-weight: bold;
+}
+
+.pitch-table tr:nth-child(even) {
+  background-color: hsl(0 0% 20%);
+}
+
+.pitch-table tr:nth-child(odd) {
+  background-color: hsl(0 0% 15%);
+}
