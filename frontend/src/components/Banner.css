@@ -1,0 +1,46 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #00274d; /* deep blue for a sports vibe */
+  color: white;
+  padding: 10px 20px;
+  height: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+}
+
+.menu-bar {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+}
+
+.menu-button:hover .menu-bar {
+  background-color: #ffcc00; /* highlight on hover */
+}
+
+.banner-logo {
+  height: 50px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.banner-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}

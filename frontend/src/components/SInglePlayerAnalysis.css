@@ -1,0 +1,85 @@
+.single-analysis {
+  text-align: center;
+  background: transparent;
+  margin: 0 auto;
+  height: 75vh;
+  width: 65%;
+}
+
+.background {
+  background-color:rgb(97, 55, 26);
+  border-radius: 16px;
+  padding-top: 10%;
+  height: 100%;
+  width: 100%;
+}
+
+.analysis-title {
+  color: var(--text);
+  font-size: 28px;
+  margin: 15px;
+}
+
+/* Pitcher’s mound near the top */
+.mound {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #F29249;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.grass-background {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 90%;
+  height: 95%;
+  background-color: #2D5E2F;
+}
+
+/* Home plate near the bottom */
+.home-icon-container {
+  width: 100px;
+  margin: 0 auto;
+  background-color: white;
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(
+    0% 0%,   /* top-left */
+    100% 0%, /* top-right */
+    100% 60%, /* right mid */
+    50% 100%, /* bottom point */
+    0% 60%    /* left mid */
+  );
+}
+
+.table-container {
+  height: 45%;
+  width: 95%;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 0 auto;
+  background: none;
+;
+}
+
+.home-icon {
+  font-size: 100px;
+  font-weight: 100;
+  color: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+  transform: rotate(180deg);
+}
+
