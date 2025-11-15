@@ -1,4 +1,5 @@
-
+#ignore DataBase
+pitches.db
 
 # Ignore Python virtual environment
 venv/
