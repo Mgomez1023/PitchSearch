@@ -1,9 +1,11 @@
 #root {
-  width: 100vw;
-  height: 100vh;
+  flex: 1;
+  width: 100%;
   margin: 0 auto;
+  padding-bottom: 2rem;
   text-align: center;
-  background-color: var(--bg-light);
+  background-color: white;
+  overflow-x: none;
 }
 
 .logo {
@@ -44,9 +46,10 @@
 
 /*-----ADDED-----*/
 .app-container {
-  max-width: 800px;
-  margin: 40px auto;
+  margin: 0 auto;
   text-align: center;
+  height: 100%;
+  max-width: 1500px;
   font-family: Arial, sans-serif;
 }
 

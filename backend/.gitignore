@@ -1,4 +1,4 @@
-#Ignore Local Database
+#ignore DataBase
 pitches.db
 
 # Ignore Python virtual environment

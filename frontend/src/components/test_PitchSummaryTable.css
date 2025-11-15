@@ -1,0 +1,25 @@
+.pitch-summary-table {
+    background-color: rgb(172, 110, 158);
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.pitch-summary-table thead {
+    padding: 40px;
+    margin: 53px;
+    border-bottom: 2px dashed white;
+}
+
+.pitch-summary-table th {
+    padding: 7px;
+}
+
+.pitch-summary-table tr {
+    padding-bottom: 5px;
+    border-bottom: 2px dashed white;
+}
+
+.pitch-summary-table td {
+    padding: 7px;
+    border-bottom: 2px dashed white;
+}

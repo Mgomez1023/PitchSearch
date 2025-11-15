@@ -1,0 +1,14 @@
+.table-insights-box {
+    padding: 15px;
+    color: red;
+    text-align: left;
+}
+
+.insights-column {
+    display: flex;
+    flex-direction: row;
+}
+
+.insights-column li {
+    padding: 5px;
+}

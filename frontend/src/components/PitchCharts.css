@@ -1,0 +1,11 @@
+.recharts-wrapper {
+    max-width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.recharts-legend-wrapper {
+    padding-top: 10px;
+}
+.bar-label {
+    margin-top: 10px;
+}

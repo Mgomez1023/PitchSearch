@@ -3,6 +3,7 @@ import PlayerSelect from './components/PlayerSelect';
 import PitchTable from './components/PitchTable';
 import Banner from './components/Banner';
 import SinglePlayerAnalysis from './components/SinglePlayerAnalysis';
+import TestSinglePlayerAnalysis from './components/test_SinglePlayerAnalysis';
 import logo from './assets/natLogo.svg';
 import './App.css';
 import pitchData from './assets/pitch_data_cache.json';
