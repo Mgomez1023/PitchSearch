@@ -21,7 +21,9 @@ def get_pitch_summary(pitcher_id):
             ROUND(AVG(release_speed), 1) AS avg_speed,
             ROUND(AVG(horizontal_break), 2) AS avg_hbreak,
             ROUND(AVG(induced_vertical_break), 2) AS avg_vbreak,
-            ROUND(AVG(spin_rate), 0) AS avg_spin
+            ROUND(AVG(spin_rate), 0) AS avg_spin,
+            ROUND(AVG(hit_exit_speed), 1) AS avg_exit_speed,
+            ROUND(AVG(hit_launch_angle), 1) AS avg_launch_angle
         FROM pitches
         WHERE pitcher_id = ?
         GROUP BY pitch_type_abbrev

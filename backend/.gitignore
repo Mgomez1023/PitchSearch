@@ -1,5 +1,4 @@
-#Ignore Local Database
-pitches.db
+
 
 # Ignore Python virtual environment
 venv/

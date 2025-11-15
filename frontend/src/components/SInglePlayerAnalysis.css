@@ -1,85 +1,203 @@
-.single-analysis {
+.analysis-container {
+  width: auto;
+  height: 90%;
+  padding-top: 30px;
   text-align: center;
-  background: transparent;
-  margin: 0 auto;
-  height: 75vh;
-  width: 65%;
-}
-
-.background {
-  background-color:rgb(97, 55, 26);
-  border-radius: 16px;
-  padding-top: 10%;
-  height: 100%;
-  width: 100%;
 }
 
 .analysis-title {
-  color: var(--text);
-  font-size: 28px;
-  margin: 15px;
+  margin-bottom: 1rem;
+  margin-left: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  font-weight: 600;
+  text-align: left;
 }
 
-/* Pitcher’s mound near the top */
-.mound {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  background-color: #F29249;
+.analysis-content {
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
+  max-height: 100%;
+  height: 100%;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  transition: transform 0.5s ease;
 }
 
-.grass-background {
+.data-content {
   display: flex;
   flex-direction: column;
-  gap: 40px;
   justify-content: center;
-  margin: 0 auto;
-  padding-top: 15px;
+  height: 80%;
+  transition: transform 0.5s ease;
+}
+
+.field-container {
   width: 90%;
-  height: 95%;
-  background-color: #2D5E2F;
+  height: 25%;
+  transition: transform 0.5s ease;
 }
 
-/* Home plate near the bottom */
-.home-icon-container {
-  width: 100px;
-  margin: 0 auto;
-  background-color: white;
-  border-top: 4px solid black;
-  border-left: 4px solid black;
-  border-right: 4px solid black;
-  border-radius: 8px;
+.chart-section {
+  background-color: antiquewhite;
+  height: 50%;
+  margin: 20px 0;
+}
+
+.pitch-table-container {
+    width: 90%;
+    height: 100%;
+    background-color: #4e6d6a;
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    border-radius: 16px;
+    padding: 1rem;
+    animation: fadeIn 0.5s ease;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.pitch-summary-table-container {
+  height: 600px;
+  background-color: aquamarine;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.summary-table-title {
+  text-align: left;
+  margin: 10px 0 20px 10px;
+  font-size: 24px;
+  color: var(--text);
+}
+
+.data-container {
+  width: 50%;
+  height: 600px;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: rgb(218, 119, 119);
+}
+
+/* Fade-in effect for the table */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Keep your existing styles */
+.grass-background {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D5E2F;
+    width: 100%;
+    height: 95%;
+    padding: 3rem;
+    border-radius: 16px;
+    position: relative;
+    align-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mound {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 5px white solid;
+  background-color: #f29249b7;
+  overflow: hidden;
+}
+
+.mound-select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    width: 45%;
+    align-content: flex-end;
+    justify-content: flex-start;
+}
+
+.player-image {
+  margin-top: 5px;
+  width: 110px;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/* --- Player Info Section --- */
+.player-info-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  width: 40%;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 1.5rem;
+  color: white;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: opacity 0.3s ease;
+}
+
+.player-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.player-stats {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.player-stats li strong {
+  color: #fdd835;
+}
+
+.info-column1{
+  border-right: 2px dashed #fdd835;
+}
+
+.info-column {
+  margin: 0 5px;
+}
+
+.info-column3{
+  border-left: 2px dashed #fdd835;
+}
+
+.no-player-text {
+  color: #ccc;
+  font-style: italic;
+}
+
+.home-icon-container {
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 8px;
   clip-path: polygon(
-    0% 0%,   /* top-left */
-    100% 0%, /* top-right */
-    100% 60%, /* right mid */
-    50% 100%, /* bottom point */
-    0% 60%    /* left mid */
+    0% 0%, 
+    100% 0%, 
+    100% 60%, 
+    50% 100%, 
+    0% 60%
   );
+  transform: rotate(-90deg);
 }
-
-.table-container {
-  height: 45%;
-  width: 95%;
-  justify-content: center;
-  padding: 0.5rem;
-  margin: 0 auto;
-  background: none;
-;
-}
-
-.home-icon {
-  font-size: 100px;
-  font-weight: 100;
-  color: none;
-  transition: transform 0.2s ease, color 0.2s ease;
-  transform: rotate(180deg);
-}
-

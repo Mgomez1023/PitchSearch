@@ -1,16 +1,98 @@
 .player-select {
-  margin-bottom: 30px;
+  position: relative;
+  width: fit-content;
+  margin: 0 0;
+  font-family: "Inter", sans-serif;
 }
 
-.player-select label {
-  font-weight: bold;
-  color:#ccc;
+.player-select-trigger {
+  
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  
+  border-radius: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 34px;
+  width: fit-content;
+  transition: all 0.25s ease;
 }
 
-.player-select select {
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  color:#000000;
-  background-color: #ccc;
+.player-select-trigger:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.arrow {
+  font-size: 1.25rem;
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.player-dropdown {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  max-height: 280px;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(14px);
+  border-radius: 1rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  animation: fadeInUp 0.25s ease;
+  padding: 0.5rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.player-option {
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.player-option:hover {
+  background: rgba(255, 255, 255, 0.6);
+  transform: scale(1.02);
+}
+
+.player-option.active {
+  background: rgba(200, 230, 255, 0.9);
+  font-weight: 600;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-name {
+  color: #111;
+  font-size: 0.95rem;
+}
+
+.player-team {
+  color: #555;
+  font-size: 0.8rem;
 }
