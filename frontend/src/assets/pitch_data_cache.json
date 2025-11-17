@@ -1,0 +1,811 @@
+{
+  "657277": {
+    "pitcher": {
+      "name_use": "Logan",
+      "name_last": "Webb",
+      "player_id": 657277,
+      "position": "RHP",
+      "team": "San Francisco Giants",
+      "throws": "Right",
+      "height": "6'1\"",
+      "weight": "223 lbs",
+      "age": 28,
+      "draft": "4th Round, 2014",
+      "image": "/assets/players/LoganWebb.avif"
+    },
+    "summary": [
+      {
+        "pitch_type": "Sinker",
+        "pitch_type_abbrev": "SI",
+        "pitch_count": 1098,
+        "avg_speed": 92.6,
+        "avg_hbreak": 15.71,
+        "avg_vbreak": 0.42,
+        "avg_spin": 1960.0,
+        "avg_exit_speed": 86.0,
+        "avg_launch_angle": 2.6
+      },
+      {
+        "pitch_type": "Slider",
+        "pitch_type_abbrev": "SL",
+        "pitch_count": 873,
+        "avg_speed": 84.6,
+        "avg_hbreak": -14.6,
+        "avg_vbreak": -0.46,
+        "avg_spin": 2544.0,
+        "avg_exit_speed": 82.1,
+        "avg_launch_angle": 14.5
+      },
+      {
+        "pitch_type": "ChangeUp",
+        "pitch_type_abbrev": "CH",
+        "pitch_count": 791,
+        "avg_speed": 86.5,
+        "avg_hbreak": 8.48,
+        "avg_vbreak": -5.64,
+        "avg_spin": 1501.0,
+        "avg_exit_speed": 83.0,
+        "avg_launch_angle": -6.5
+      },
+      {
+        "pitch_type": "Fastball",
+        "pitch_type_abbrev": "FA",
+        "pitch_count": 260,
+        "avg_speed": 92.8,
+        "avg_hbreak": 9.06,
+        "avg_vbreak": 10.68,
+        "avg_spin": 2118.0,
+        "avg_exit_speed": 81.1,
+        "avg_launch_angle": 28.7
+      },
+      {
+        "pitch_type": "Cutter",
+        "pitch_type_abbrev": "FC",
+        "pitch_count": 260,
+        "avg_speed": 91.0,
+        "avg_hbreak": 2.05,
+        "avg_vbreak": 7.69,
+        "avg_spin": 2223.0,
+        "avg_exit_speed": 77.8,
+        "avg_launch_angle": 23.3
+      }
+    ]
+  },
+  "607074": {
+    "pitcher": {
+      "name_use": "Carlos",
+      "name_last": "Rod\u00f3n",
+      "player_id": 607074,
+      "position": "LHP",
+      "team": "New York Yankees",
+      "throws": "Left",
+      "height": "6'2\"",
+      "weight": "255 lbs",
+      "age": 32,
+      "draft": "1st Round, 2014",
+      "image": "/assets/players/CarlosRodon.avif"
+    },
+    "summary": [
+      {
+        "pitch_type": "Fastball",
+        "pitch_type_abbrev": "FA",
+        "pitch_count": 1347,
+        "avg_speed": 94.1,
+        "avg_hbreak": -10.76,
+        "avg_vbreak": 17.62,
+        "avg_spin": 2347.0,
+        "avg_exit_speed": 83.0,
+        "avg_launch_angle": 30.6
+      },
+      {
+        "pitch_type": "Slider",
+        "pitch_type_abbrev": "SL",
+        "pitch_count": 914,
+        "avg_speed": 85.9,
+        "avg_hbreak": 5.54,
+        "avg_vbreak": -0.76,
+        "avg_spin": 2633.0,
+        "avg_exit_speed": 82.7,
+        "avg_launch_angle": 8.9
+      },
+      {
+        "pitch_type": "ChangeUp",
+        "pitch_type_abbrev": "CH",
+        "pitch_count": 519,
+        "avg_speed": 85.0,
+        "avg_hbreak": -12.68,
+        "avg_vbreak": 3.72,
+        "avg_spin": 1650.0,
+        "avg_exit_speed": 80.1,
+        "avg_launch_angle": 4.2
+      },
+      {
+        "pitch_type": "Sinker",
+        "pitch_type_abbrev": "SI",
+        "pitch_count": 309,
+        "avg_speed": 91.9,
+        "avg_hbreak": -14.52,
+        "avg_vbreak": 6.21,
+        "avg_spin": 2259.0,
+        "avg_exit_speed": 83.3,
+        "avg_launch_angle": -10.7
+      },
+      {
+        "pitch_type": "Curveball",
+        "pitch_type_abbrev": "CU",
+        "pitch_count": 120,
+        "avg_speed": 80.2,
+        "avg_hbreak": 7.33,
+        "avg_vbreak": -13.25,
+        "avg_spin": 2716.0,
+        "avg_exit_speed": 77.7,
+        "avg_launch_angle": -10.6
+      },
+      {
+        "pitch_type": null,
+        "pitch_type_abbrev": null,
+        "pitch_count": 3,
+        "avg_speed": null,
+        "avg_hbreak": null,
+        "avg_vbreak": null,
+        "avg_spin": null,
+        "avg_exit_speed": null,
+        "avg_launch_angle": null
+      },
+      {
+        "pitch_type": "Cutter",
+        "pitch_type_abbrev": "FC",
+        "pitch_count": 1,
+        "avg_speed": 92.6,
+        "avg_hbreak": -4.37,
+        "avg_vbreak": 1.78,
+        "avg_spin": 2285.0,
+        "avg_exit_speed": null,
+        "avg_launch_angle": null
+      }
+    ]
+  },
+  "676979": {
+    "pitcher": {
+      "name_use": "Garrett",
+      "name_last": "Crochet",
+      "player_id": 676979,
+      "position": "LHP",
+      "team": "Boston Red Sox",
+      "throws": "Left",
+      "height": "6'6\"",
+      "weight": "245 lbs",
+      "age": 26,
+      "draft": "1st Round, 2020",
+      "image": "/assets/players/GarrettCrochet.avif"
+    },
+    "summary": [
+      {
+        "pitch_type": "Fastball",
+        "pitch_type_abbrev": "FA",
+        "pitch_count": 1137,
+        "avg_speed": 96.4,
+        "avg_hbreak": -8.03,
+        "avg_vbreak": 15.95,
+        "avg_spin": 2459.0,
+        "avg_exit_speed": 83.7,
+        "avg_launch_angle": 31.3
+      },
+      {
+        "pitch_type": "Cutter",
+        "pitch_type_abbrev": "FC",
+        "pitch_count": 876,
+        "avg_speed": 90.9,
+        "avg_hbreak": 3.65,
+        "avg_vbreak": 6.22,
+        "avg_spin": 2598.0,
+        "avg_exit_speed": 83.7,
+        "avg_launch_angle": 11.2
+      },
+      {
+        "pitch_type": "Slider",
+        "pitch_type_abbrev": "SL",
+        "pitch_count": 502,
+        "avg_speed": 82.7,
+        "avg_hbreak": 13.8,
+        "avg_vbreak": -2.99,
+        "avg_spin": 2378.0,
+        "avg_exit_speed": 81.2,
+        "avg_launch_angle": 10.2
+      },
+      {
+        "pitch_type": "Sinker",
+        "pitch_type_abbrev": "SI",
+        "pitch_count": 494,
+        "avg_speed": 96.0,
+        "avg_hbreak": -16.24,
+        "avg_vbreak": 8.13,
+        "avg_spin": 2402.0,
+        "avg_exit_speed": 79.9,
+        "avg_launch_angle": 8.1
+      },
+      {
+        "pitch_type": "ChangeUp",
+        "pitch_type_abbrev": "CH",
+        "pitch_count": 141,
+        "avg_speed": 87.9,
+        "avg_hbreak": -12.13,
+        "avg_vbreak": 6.36,
+        "avg_spin": 1736.0,
+        "avg_exit_speed": 72.4,
+        "avg_launch_angle": 6.3
+      },
+      {
+        "pitch_type": null,
+        "pitch_type_abbrev": null,
+        "pitch_count": 1,
+        "avg_speed": null,
+        "avg_hbreak": null,
+        "avg_vbreak": null,
+        "avg_spin": null,
+        "avg_exit_speed": null,
+        "avg_launch_angle": null
+      }
+    ]
+  },
+  "668678": {
+    "pitcher": {
+      "name_use": "Zac",
+      "name_last": "Gallen",
+      "player_id": 668678,
+      "position": "RHP",
+      "team": "Arizone Diamondbacks",
+      "throws": "Right",
+      "height": "6'2\"",
+      "weight": "189 lbs",
+      "age": 30,
+      "draft": "3rd Round, 2016",
+      "image": "/assets/players/ZacGallen.avif"
+    },
+    "summary": [
+      {
+        "pitch_type": "Fastball",
+        "pitch_type_abbrev": "FA",
+        "pitch_count": 1423,
+        "avg_speed": 93.5,
+        "avg_hbreak": 4.34,
+        "avg_vbreak": 17.14,
+        "avg_spin": 2320.0,
+        "avg_exit_speed": 86.9,
+        "avg_launch_angle": 25.1
+      },
+      {
+        "pitch_type": "Curveball",
+        "pitch_type_abbrev": "CU",
+        "pitch_count": 736,
+        "avg_speed": 81.1,
+        "avg_hbreak": -4.91,
+        "avg_vbreak": -11.45,
+        "avg_spin": 2441.0,
+        "avg_exit_speed": 81.8,
+        "avg_launch_angle": -5.3
+      },
+      {
+        "pitch_type": "ChangeUp",
+        "pitch_type_abbrev": "CH",
+        "pitch_count": 501,
+        "avg_speed": 86.3,
+        "avg_hbreak": 12.25,
+        "avg_vbreak": 4.06,
+        "avg_spin": 1518.0,
+        "avg_exit_speed": 79.5,
+        "avg_launch_angle": 0.2
+      },
+      {
+        "pitch_type": "Slider",
+        "pitch_type_abbrev": "SL",
+        "pitch_count": 226,
+        "avg_speed": 88.0,
+        "avg_hbreak": -5.79,
+        "avg_vbreak": 3.98,
+        "avg_spin": 2380.0,
+        "avg_exit_speed": 82.8,
+        "avg_launch_angle": 15.3
+      },
+      {
+        "pitch_type": "Cutter",
+        "pitch_type_abbrev": "FC",
+        "pitch_count": 183,
+        "avg_speed": 89.5,
+        "avg_hbreak": -3.4,
+        "avg_vbreak": 9.56,
+        "avg_spin": 2338.0,
+        "avg_exit_speed": 81.4,
+        "avg_launch_angle": 13.0
+      },
+      {
+        "pitch_type": "Sinker",
+        "pitch_type_abbrev": "SI",
+        "pitch_count": 66,
+        "avg_speed": 93.4,
+        "avg_hbreak": 11.21,
+        "avg_vbreak": 14.11,
+        "avg_spin": 2153.0,
+        "avg_exit_speed": 80.1,
+        "avg_launch_angle": 4.1
+      }
+    ]
+  },
+  "608331": {
+    "pitcher": {
+      "name_use": "Max",
+      "name_last": "Fried",
+      "player_id": 608331,
+      "position": "LHP",
+      "team": "New York Yankees",
+      "throws": "Left",
+      "height": "6'4\"",
+      "weight": "190 lbs",
+      "age": 31,
+      "draft": "1st Round, 2012",
+      "image": "/assets/players/MaxFried.avif"
+    },
+    "summary": [
+      {
+        "pitch_type": "Fastball",
+        "pitch_type_abbrev": "FA",
+        "pitch_count": 833,
+        "avg_speed": 94.6,
+        "avg_hbreak": -0.6,
+        "avg_vbreak": 11.78,
+        "avg_spin": 2265.0,
+        "avg_exit_speed": 82.3,
+        "avg_launch_angle": 16.9
+      },
+      {
+        "pitch_type": "Sinker",
+        "pitch_type_abbrev": "SI",
+        "pitch_count": 544,
+        "avg_speed": 94.1,
+        "avg_hbreak": -10.02,
+        "avg_vbreak": 4.3,
+        "avg_spin": 2131.0,
+        "avg_exit_speed": 83.1,
+        "avg_launch_angle": -2.7
+      },
+      {
+        "pitch_type": "Curveball",
+        "pitch_type_abbrev": "CU",
+        "pitch_count": 537,
+        "avg_speed": 75.2,
+        "avg_hbreak": 10.54,
+        "avg_vbreak": -16.93,
+        "avg_spin": 2920.0,
+        "avg_exit_speed": 81.6,
+        "avg_launch_angle": 3.6
+      },
+      {
+        "pitch_type": "Cutter",
+        "pitch_type_abbrev": "FC",
+        "pitch_count": 467,
+        "avg_speed": 93.2,
+        "avg_hbreak": 1.66,
+        "avg_vbreak": 8.37,
+        "avg_spin": 2306.0,
+        "avg_exit_speed": 82.9,
+        "avg_launch_angle": 15.9
+      },
+      {
+        "pitch_type": "Slider",
+        "pitch_type_abbrev": "SL",
+        "pitch_count": 388,
+        "avg_speed": 81.8,
+        "avg_hbreak": 16.35,
+        "avg_vbreak": -3.55,
+        "avg_spin": 2817.0,
+        "avg_exit_speed": 81.2,
+        "avg_launch_angle": 18.3
+      },
+      {
+        "pitch_type": "ChangeUp",
+        "pitch_type_abbrev": "CH",
+        "pitch_count": 340,
+        "avg_speed": 85.2,
+        "avg_hbreak": -13.41,
+        "avg_vbreak": 3.56,
+        "avg_spin": 1658.0,
+        "avg_exit_speed": 77.7,
+        "avg_launch_angle": 3.8
+      },
+      {
+        "pitch_type": null,
+        "pitch_type_abbrev": null,
+        "pitch_count": 1,
+        "avg_speed": null,
+        "avg_hbreak": null,
+        "avg_vbreak": null,
+        "avg_spin": null,
+        "avg_exit_speed": null,
+        "avg_launch_angle": null
+      }
+    ]
+  },
+  "663623": {
+    "pitcher": {
+      "name_use": "Jake",
+      "name_last": "Irvin",
+      "player_id": 663623,
+      "position": "RHP",
+      "team": "Washington Nationals",
+      "throws": "Right",
+      "height": "6'6\"",
+      "weight": "234 lbs",
+      "age": 28,
+      "draft": "4th Round, 2018",
+      "image": "/assets/players/JakeIrvin.avif"
+
+    },
+    "summary": [
+      {
+        "pitch_type": "Fastball",
+        "pitch_type_abbrev": "FA",
+        "pitch_count": 945,
+        "avg_speed": 92.4,
+        "avg_hbreak": 9.42,
+        "avg_vbreak": 14.68,
+        "avg_spin": 2332.0,
+        "avg_exit_speed": 85.9,
+        "avg_launch_angle": 30.5
+      },
+      {
+        "pitch_type": "Curveball",
+        "pitch_type_abbrev": "CU",
+        "pitch_count": 879,
+        "avg_speed": 77.8,
+        "avg_hbreak": -14.75,
+        "avg_vbreak": -4.18,
+        "avg_spin": 2485.0,
+        "avg_exit_speed": 81.9,
+        "avg_launch_angle": 6.9
+      },
+      {
+        "pitch_type": "Sinker",
+        "pitch_type_abbrev": "SI",
+        "pitch_count": 641,
+        "avg_speed": 91.9,
+        "avg_hbreak": 16.54,
+        "avg_vbreak": 6.56,
+        "avg_spin": 2291.0,
+        "avg_exit_speed": 83.7,
+        "avg_launch_angle": 5.8
+      },
+      {
+        "pitch_type": "ChangeUp",
+        "pitch_type_abbrev": "CH",
+        "pitch_count": 234,
+        "avg_speed": 85.7,
+        "avg_hbreak": 15.59,
+        "avg_vbreak": 4.77,
+        "avg_spin": 2197.0,
+        "avg_exit_speed": 88.0,
+        "avg_launch_angle": 10.5
+      },
+      {
+        "pitch_type": "Slider",
+        "pitch_type_abbrev": "SL",
+        "pitch_count": 124,
+        "avg_speed": 83.9,
+        "avg_hbreak": -7.4,
+        "avg_vbreak": 0.51,
+        "avg_spin": 2493.0,
+        "avg_exit_speed": 85.2,
+        "avg_launch_angle": 9.7
+      },
+      {
+        "pitch_type": "Cutter",
+        "pitch_type_abbrev": "FC",
+        "pitch_count": 122,
+        "avg_speed": 87.4,
+        "avg_hbreak": -2.67,
+        "avg_vbreak": 6.92,
+        "avg_spin": 2464.0,
+        "avg_exit_speed": 82.6,
+        "avg_launch_angle": 24.5
+      },
+      {
+        "pitch_type": null,
+        "pitch_type_abbrev": null,
+        "pitch_count": 2,
+        "avg_speed": null,
+        "avg_hbreak": null,
+        "avg_vbreak": null,
+        "avg_spin": null,
+        "avg_exit_speed": null,
+        "avg_launch_angle": null
+      }
+    ]
+  },
+  "669022": {
+    "pitcher": {
+      "name_use": "MacKenzie",
+      "name_last": "Gore",
+      "player_id": 669022,
+      "position": "LHP",
+      "team": "Washington Nationals",
+      "throws": "Left",
+      "height": "6'2\"",
+      "weight": "193 lbs",
+      "age": 26,
+      "draft": "1st Round, 2017",
+      "image": "/assets/players/MacKenzieGore.avif"
+    },
+    "summary": [
+      {
+        "pitch_type": "Fastball",
+        "pitch_type_abbrev": "FA",
+        "pitch_count": 1388,
+        "avg_speed": 95.3,
+        "avg_hbreak": -6.62,
+        "avg_vbreak": 17.01,
+        "avg_spin": 2260.0,
+        "avg_exit_speed": 83.1,
+        "avg_launch_angle": 32.2
+      },
+      {
+        "pitch_type": "Curveball",
+        "pitch_type_abbrev": "CU",
+        "pitch_count": 674,
+        "avg_speed": 81.6,
+        "avg_hbreak": 4.64,
+        "avg_vbreak": -12.99,
+        "avg_spin": 2345.0,
+        "avg_exit_speed": 82.1,
+        "avg_launch_angle": -0.2
+      },
+      {
+        "pitch_type": "Slider",
+        "pitch_type_abbrev": "SL",
+        "pitch_count": 328,
+        "avg_speed": 86.7,
+        "avg_hbreak": 1.2,
+        "avg_vbreak": 2.07,
+        "avg_spin": 2097.0,
+        "avg_exit_speed": 81.2,
+        "avg_launch_angle": 9.2
+      },
+      {
+        "pitch_type": "ChangeUp",
+        "pitch_type_abbrev": "CH",
+        "pitch_count": 293,
+        "avg_speed": 86.2,
+        "avg_hbreak": -13.93,
+        "avg_vbreak": 8.21,
+        "avg_spin": 2092.0,
+        "avg_exit_speed": 77.2,
+        "avg_launch_angle": 10.1
+      },
+      {
+        "pitch_type": "Cutter",
+        "pitch_type_abbrev": "FC",
+        "pitch_count": 135,
+        "avg_speed": 90.2,
+        "avg_hbreak": 0.34,
+        "avg_vbreak": 7.99,
+        "avg_spin": 1968.0,
+        "avg_exit_speed": 87.5,
+        "avg_launch_angle": -0.7
+      },
+      {
+        "pitch_type": null,
+        "pitch_type_abbrev": null,
+        "pitch_count": 1,
+        "avg_speed": null,
+        "avg_hbreak": null,
+        "avg_vbreak": null,
+        "avg_spin": null,
+        "avg_exit_speed": null,
+        "avg_launch_angle": null
+      }
+    ]
+  },
+  "641745": {
+    "pitcher": {
+      "name_use": "Brad",
+      "name_last": "Lord",
+      "player_id": 641745,
+      "position": "RHP",
+      "team": "Washington Nationals",
+      "throws": "Right",
+      "height": "6'3\"",
+      "weight": "210 lbs",
+      "age": 25,
+      "draft": "18th Round, 2022",
+      "image": "/assets/players/BradLord.avif"
+    },
+    "summary": [
+      {
+        "pitch_type": "Fastball",
+        "pitch_type_abbrev": "FA",
+        "pitch_count": 476,
+        "avg_speed": 97.2,
+        "avg_hbreak": 1.5,
+        "avg_vbreak": 15.08,
+        "avg_spin": 2379.0,
+        "avg_exit_speed": 83.8,
+        "avg_launch_angle": 26.3
+      },
+      {
+        "pitch_type": "Slider",
+        "pitch_type_abbrev": "SL",
+        "pitch_count": 353,
+        "avg_speed": 86.8,
+        "avg_hbreak": -9.32,
+        "avg_vbreak": -0.38,
+        "avg_spin": 2672.0,
+        "avg_exit_speed": 81.1,
+        "avg_launch_angle": 9.1
+      },
+      {
+        "pitch_type": "Sinker",
+        "pitch_type_abbrev": "SI",
+        "pitch_count": 167,
+        "avg_speed": 96.4,
+        "avg_hbreak": 13.49,
+        "avg_vbreak": 10.13,
+        "avg_spin": 2157.0,
+        "avg_exit_speed": 76.9,
+        "avg_launch_angle": -13.0
+      },
+      {
+        "pitch_type": "ChangeUp",
+        "pitch_type_abbrev": "CH",
+        "pitch_count": 117,
+        "avg_speed": 92.7,
+        "avg_hbreak": 11.5,
+        "avg_vbreak": 6.2,
+        "avg_spin": 1721.0,
+        "avg_exit_speed": 78.7,
+        "avg_launch_angle": -4.0
+      },
+      {
+        "pitch_type": null,
+        "pitch_type_abbrev": null,
+        "pitch_count": 1,
+        "avg_speed": null,
+        "avg_hbreak": null,
+        "avg_vbreak": null,
+        "avg_spin": null,
+        "avg_exit_speed": null,
+        "avg_launch_angle": null
+      }
+    ]
+  },
+  "678606": {
+    "pitcher": {
+      "name_use": "Jose A.",
+      "name_last": "Ferrer",
+      "player_id": 678606,
+      "position": "LHP",
+      "team": "Washington Nationals",
+      "throws": "Left",
+      "height": "6'1\"",
+      "weight": "233 lbs",
+      "age": 25,
+      "draft": "Not Available",
+      "image": "/assets/players/JoseFerrer.avif"
+    },
+    "summary": [
+      {
+        "pitch_type": "Sinker",
+        "pitch_type_abbrev": "SI",
+        "pitch_count": 849,
+        "avg_speed": 97.7,
+        "avg_hbreak": -18.1,
+        "avg_vbreak": 6.75,
+        "avg_spin": 2122.0,
+        "avg_exit_speed": 83.0,
+        "avg_launch_angle": 9.2
+      },
+      {
+        "pitch_type": "ChangeUp",
+        "pitch_type_abbrev": "CH",
+        "pitch_count": 265,
+        "avg_speed": 87.8,
+        "avg_hbreak": -18.05,
+        "avg_vbreak": 0.58,
+        "avg_spin": 2184.0,
+        "avg_exit_speed": 77.7,
+        "avg_launch_angle": 14.7
+      },
+      {
+        "pitch_type": "Slider",
+        "pitch_type_abbrev": "SL",
+        "pitch_count": 89,
+        "avg_speed": 89.7,
+        "avg_hbreak": 0.32,
+        "avg_vbreak": 3.34,
+        "avg_spin": 2404.0,
+        "avg_exit_speed": 82.1,
+        "avg_launch_angle": 15.7
+      },
+      {
+        "pitch_type": null,
+        "pitch_type_abbrev": null,
+        "pitch_count": 5,
+        "avg_speed": null,
+        "avg_hbreak": null,
+        "avg_vbreak": null,
+        "avg_spin": null,
+        "avg_exit_speed": null,
+        "avg_launch_angle": null
+      },
+      {
+        "pitch_type": "Fastball",
+        "pitch_type_abbrev": "FA",
+        "pitch_count": 5,
+        "avg_speed": 95.9,
+        "avg_hbreak": -11.02,
+        "avg_vbreak": 6.7,
+        "avg_spin": 2173.0,
+        "avg_exit_speed": 104.4,
+        "avg_launch_angle": -4.7
+      }
+    ]
+  },
+  "663362": {
+    "pitcher": {
+      "name_use": "Matt",
+      "name_last": "Waldron",
+      "player_id": 663362,
+      "position": "RHP",
+      "team": "San Diego Padres",
+      "throws": "Right",
+      "height": "6'2\"",
+      "weight": "185 lbs",
+      "age": 29,
+      "draft": "18th Round, 2019",
+      "image": "/assets/players/MattWaldron.avif"
+    },
+    "summary": [
+      {
+        "pitch_type": "Knuckleball",
+        "pitch_type_abbrev": "KN",
+        "pitch_count": 77,
+        "avg_speed": 79.4,
+        "avg_hbreak": 1.86,
+        "avg_vbreak": -1.75,
+        "avg_spin": 305.0,
+        "avg_exit_speed": 77.3,
+        "avg_launch_angle": 11.8
+      },
+      {
+        "pitch_type": "Fastball",
+        "pitch_type_abbrev": "FA",
+        "pitch_count": 16,
+        "avg_speed": 90.1,
+        "avg_hbreak": 9.46,
+        "avg_vbreak": 13.43,
+        "avg_spin": 2017.0,
+        "avg_exit_speed": 83.4,
+        "avg_launch_angle": 14.5
+      },
+      {
+        "pitch_type": "Sinker",
+        "pitch_type_abbrev": "SI",
+        "pitch_count": 8,
+        "avg_speed": 89.8,
+        "avg_hbreak": 14.21,
+        "avg_vbreak": 7.03,
+        "avg_spin": 1943.0,
+        "avg_exit_speed": 90.8,
+        "avg_launch_angle": 19.5
+      },
+      {
+        "pitch_type": "Slider",
+        "pitch_type_abbrev": "SL",
+        "pitch_count": 3,
+        "avg_speed": 81.0,
+        "avg_hbreak": -10.86,
+        "avg_vbreak": 3.51,
+        "avg_spin": 2167.0,
+        "avg_exit_speed": 86.6,
+        "avg_launch_angle": 37.6
+      }
+    ]
+  }
+}
