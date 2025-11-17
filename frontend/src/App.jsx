@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Banner from './components/Banner';
 import SinglePlayerAnalysis from './components/SinglePlayerAnalysis';
 import SideBySideAnalysis from './components/SideBySideAnalysis';
+import AboutPage from "./components/AboutPage.jsx"
 import logo from './assets/natLogo.svg';
 import './App.css';
 import pitchData from './assets/pitch_data_cache.json';
@@ -50,11 +51,23 @@ function App() {
         >
           Side-by-Side Analysis
         </button>
+
+        <button
+          className={activeView === "about" ? "active" : ""}
+          onClick={() => {
+            setActiveView("about");
+            setMenuOpen(false);
+          }}
+        >
+          About PitchSearch
+        </button>
+
       </nav>
 
       <div className="app-container">
         {activeView === "single" && <SinglePlayerAnalysis />}
         {activeView === "sideBySide" && <SideBySideAnalysis />}
+        {activeView === "about" && <AboutPage />}
       </div>
     </>
   );
