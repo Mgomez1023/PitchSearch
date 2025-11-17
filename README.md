@@ -5,17 +5,34 @@ The app displays a clean summary table of all the pitchers data and also puts re
 
 I have also included a side-by-side analysis feature in which the user is able to select two pitchers at a time and view their data next to each other simultaneously. Just like the single player analysis, there is an insights container underneath the data displaying valuable points between the two selected pitchers. 
 
----HOW TO RUN---
+
+
+-----HOW TO RUN-----
 1. Open Terminal to a folder you want the project in 
 
-2. run "git clone https://github.com/Mgomez1023/PitchSearch.git"
+2. run 
+git clone https://github.com/Mgomez1023/PitchSearch.git
 
-3. run "cd PitchSearch"
+3. run 
+cd PitchSearch
 
-4. run "cd frontend"
+4. run
+cd frontend
 
-5. run "npm install"
+5. run 
+npm install
 
-6. run "npm run dev"
+6. run 
+npm run dev
 
 7. Project should now be accessible at localhost server
+
+
+
+-----Dependency List-----
+    "@tailwindcss/vite": "^4.1.17",
+    "motion": "^12.23.24",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.5.0",
+    "recharts": "^3.4.1"
