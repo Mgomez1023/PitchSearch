@@ -4,7 +4,6 @@
   margin: 0 auto;
   padding-bottom: 2rem;
   text-align: center;
-  background-color: white;
   overflow-x: none;
 }
 
@@ -48,12 +47,51 @@
 .app-container {
   margin: 0 auto;
   text-align: center;
-  height: 100%;
   max-width: 1500px;
-  font-family: Arial, sans-serif;
 }
 
 .app-title {
   color: #333;
   margin-bottom: 20px;
+}
+.side-menu {
+  position: fixed;
+  top: 60px;
+  left: -260px;
+  width: 240px;
+  height: calc(100vh - 60px);
+  background: #00274d;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 15px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  justify-content: center;
+}
+
+.side-menu.open {
+  left: 0;
+}
+
+.side-menu button {
+  background: transparent;
+  border-bottom: 2px dashed rgb(170, 0, 0);
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  padding: 10px 0;
+  opacity: 0.8;
+  transition: 0.2s ease;
+}
+
+.side-menu button:hover {
+  opacity: 1;
+}
+
+.side-menu button.active {
+  font-weight: bold;
+  color: #BA0C2F;
 }

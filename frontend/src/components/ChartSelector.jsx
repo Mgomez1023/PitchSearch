@@ -3,7 +3,7 @@ import "./ChartSelector.css";
 
 function ChartSelector({ selectedChart, setSelectedChart }) {
   const buttons = [
-    { id: "usage", label: "Usage %" },
+    { id: "usage", label: "Usage" },
     { id: "veloSpin", label: "Velocity/Spin" },
     { id: "movement", label: "Movement" },
     { id: "batted", label: "Batted Ball" },

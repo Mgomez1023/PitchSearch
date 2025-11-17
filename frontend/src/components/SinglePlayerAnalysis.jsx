@@ -16,10 +16,10 @@ function SinglePlayerAnalysis() {
   const [selectedChart, setSelectedChart] = useState("usage");
 
   const buttons = [
-    { id: "usage", label: "Usage %" },
+    { id: "usage", label: "Usage" },
     { id: "veloSpin", label: "Velocity/Spin" },
     { id: "movement", label: "Movement" },
-    { id: "batted", label: "Batted Ball" },
+    { id: "batted", label: "Hits" },
   ];
 
   const containerRef = useRef(null);
@@ -135,10 +135,11 @@ function SinglePlayerAnalysis() {
               <div className="data-content">
 
                 <div className="chart-section">
+
                   <PitchCharts summary={selectedData.summary} type={selectedChart} />
                 </div>
 
-                <PitchInsights summary={selectedData.summary} />
+                <PitchInsights summary={selectedData.summary} type={selectedChart} />
               </div>
             </div>
 

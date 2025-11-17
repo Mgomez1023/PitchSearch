@@ -32,23 +32,28 @@ function PitchInsights({ summary }) {
   );
 
   return (
-    <div className="table-insights-box">
-      <h3>At a glance:</h3>
-      <ul>
-        <div className="insights-column">
-          <li>Most used pitch: {mostUsed.pitch_type} ({mostUsed.pitch_count} thrown)</li>
-          <li>Fastest pitch: {fastest.pitch_type} ({fastest.avg_speed} mph)</li>
-          <li>Highest spin: {highestSpin.pitch_type} ({highestSpin.avg_spin} rpm)</li>
-        </div>
-        <div className="insights-column">
-          <li>Most horizontal break: {mostHBreak.pitch_type} ({mostHBreak.avg_hbreak} in)</li>
-          <li>Most vertical break: {mostVBreak.pitch_type} ({mostVBreak.avg_vbreak} in)</li>
-          <li>Hardest contact allowed: {hardestHit.pitch_type} ({hardestHit.avg_exit_speed} mph EV)</li>
+  <div className="table-insights-box">
+    <h3>At a glance:</h3>
 
-        </div>
-          <li>Weakest contact: {weakestContact.pitch_type} ({weakestContact.avg_exit_speed} mph EV)</li>
+    <div className="insights-wrapper">
+      <ul className="insights-column">
+        <li><strong>Most used pitch:</strong> {mostUsed.pitch_type} ({mostUsed.pitch_count} thrown)</li>
+        <li><strong>Fastest pitch:</strong> {fastest.pitch_type} ({fastest.avg_speed} mph)</li>
+        <li><strong>Highest spin:</strong> {highestSpin.pitch_type} ({highestSpin.avg_spin} rpm)</li>
+        <li><strong>Weakest contact:</strong> {weakestContact.pitch_type} ({weakestContact.avg_exit_speed} mph EV)</li>
+      </ul>
+
+      <ul className="insights-column">
+        <li><strong>Most horizontal break:</strong> {mostHBreak.pitch_type} ({mostHBreak.avg_hbreak} in)</li>
+        <li><strong>Most vertical break:</strong> {mostVBreak.pitch_type} ({mostVBreak.avg_vbreak} in)</li>
+        <li><strong>Hardest contact:</strong> {hardestHit.pitch_type} ({hardestHit.avg_exit_speed} mph EV)</li>
       </ul>
     </div>
+
+    <ul className="insights-footer">
+    </ul>
+
+  </div>
   );
 }
 

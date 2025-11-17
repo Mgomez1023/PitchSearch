@@ -1,13 +1,16 @@
 .pitch-summary-table {
-    background-color: rgb(172, 110, 158);
-    border-radius: 16px;
+    background-color: hsl(0 0% 95%);
+    color: rgb(32, 32, 32);
+    border: 3px solid rgb(170, 0, 0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+
     padding: 10px;
 }
 
 .pitch-summary-table thead {
     padding: 40px;
     margin: 53px;
-    border-bottom: 2px dashed white;
+    border-bottom: 2px dashed rgb(24, 24, 24);
 }
 
 .pitch-summary-table th {
@@ -16,10 +19,10 @@
 
 .pitch-summary-table tr {
     padding-bottom: 5px;
-    border-bottom: 2px dashed white;
+    border-bottom: 2px dashed rgb(170, 0, 0);
 }
 
 .pitch-summary-table td {
     padding: 7px;
-    border-bottom: 2px dashed white;
+    border-bottom: 2px dashed rgb(170, 0, 0);
 }

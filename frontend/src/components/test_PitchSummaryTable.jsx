@@ -1,10 +1,10 @@
 import "./test_PitchSummaryTable.css";
 
-function PitchSummaryTable({ summary }) {
+function PitchSummaryTable({ summary, className }) {
   const totalPitches = summary.reduce((sum, p) => sum + (p.pitch_count || 0), 0);
 
   return (
-    <table className="pitch-summary-table">
+    <table className={`pitch-summary-table ${className}`}>
       <thead>
         <tr>
           <th>Pitch Type</th>

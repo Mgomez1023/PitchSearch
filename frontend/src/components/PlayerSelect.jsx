@@ -19,7 +19,7 @@ function PlayerSelect({ players, onSelect }) {
 
   const handleSelect = (player) => {
     setSelectedPlayer(player);
-    onSelect(player.player_id);
+    onSelect(player ? player.player_id : null); // Pass null if "Choose a Pitcher" selected
     setIsOpen(false);
   };
 
@@ -37,6 +37,19 @@ function PlayerSelect({ players, onSelect }) {
 
       {isOpen && (
         <div className="player-dropdown">
+          {/* Default "Choose a Pitcher" option */}
+          <div
+            className={`player-option ${
+              selectedPlayer === null ? "active" : ""
+            }`}
+            onClick={() => handleSelect(null)}
+          >
+            <div className="player-info">
+              <span className="player-name">Choose a Pitcher</span>
+            </div>
+          </div>
+
+          {/* Player options */}
           {players.map((p) => (
             <div
               key={p.player_id}

@@ -1,7 +1,6 @@
 .recharts-wrapper {
     max-width: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% auto;
 }
 .recharts-legend-wrapper {
     padding-top: 10px;
