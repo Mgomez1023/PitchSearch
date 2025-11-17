@@ -1,3 +1,83 @@
+/* --- RESPONSIVE LAYOUT FOR MOBILE --- */
+@media (max-width: 1100px) {
+
+  /* Entire analysis layout stacks vertically */
+  .analysis-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    height: auto;
+  }
+
+  .data-content {
+    height: auto;
+    width: 100%;
+  }
+
+  /* Pitch table container stacks instead of side-by-side */
+  .pitch-table-container {
+    flex-direction: column-reverse !important;
+    gap: 1rem;
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  /* Summary table stretches full width */
+  .pitch-summary-table-container,
+  .data-container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .mound {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+  }
+
+  .player-image {
+    object-position: center;
+  }
+
+
+  /* Columns stack */
+  .player-stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .info-column1,
+  .info-column3 {
+    border: none;
+    padding: 0;
+  }
+
+  /* Home icon shrinks */
+  .home-icon-container {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+  }
+
+  /* Chart section full width */
+  .chart-section {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Titles scale down */
+  .analysis-title {
+    font-size: 32px;
+  }
+}
+
+
+
+
 .analysis-container {
   width: auto;
   height: 90%;
@@ -58,21 +138,20 @@
 }
 
 .pitch-table-container {
-    width: 90%;
-    height: auto;
-    max-height: 850px;
-    background: linear-gradient(145deg, #2c532e, #1c441d);
-    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.75);
-    border: 10px solid black;
-    display: flex;
-    gap: 20px;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    border-radius: 16px;
-    padding: 1rem;
-    animation: fadeIn 0.5s ease;
-    flex-wrap: nowrap;
-    align-items: center;
+  width: 90%;
+  height: auto;
+  background: linear-gradient(145deg, #2c532e, #1c441d);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.75);
+  border: 10px solid black;
+  display: flex;
+  gap: 20px;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  border-radius: 16px;
+  padding: 1rem;
+  animation: fadeIn 0.5s ease;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .pitch-summary-table-container {
@@ -123,7 +202,7 @@
     width: 100%;
     height: auto;
     padding: 3rem;
-    border-radius: 16px;
+    border-radius: 12px;
     position: relative;
     align-content: flex-end;
     flex-direction: row;
@@ -178,6 +257,11 @@
   backdrop-filter: blur(6px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: opacity 0.3s ease;
+}
+
+@media (max-width: 1100px) {
+  .player-info-section {
+    display: none;  }
 }
 
 .player-name {

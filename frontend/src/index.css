@@ -45,7 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   min-width: 320px;
-  height: auto;
+  height: 100%;
   min-height: 100vh;
   overflow-x: none;
   font-family: "Roboto Condensed", sans-serif;

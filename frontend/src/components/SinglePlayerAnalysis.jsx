@@ -1,12 +1,10 @@
 import { useState, useRef, useEffect } from "react";
 import { RiHomeLine } from "react-icons/ri";
 import PlayerSelect from './PlayerSelect';
-import PitchTable from './PitchTable';
 import PitchSummaryTable from "./test_PitchSummaryTable";
 import PitchCharts from "./test_PitchCharts";
 import PitchInsights from "./test_PichInsights"
 import TableInsights from "./TableInsights";
-import ChartSelector from './ChartSelector';
 import pitchData from '../assets/pitch_data_cache.json';
 import './SinglePlayerAnalysis.css';
 import "./ChartSelector.css";

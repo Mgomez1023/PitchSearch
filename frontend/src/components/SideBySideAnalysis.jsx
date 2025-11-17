@@ -1,10 +1,7 @@
 import { useState } from "react";
 import Bullpen from "./Bullpen";
-import PlayerSelect from "./PlayerSelect"; // not used here but keep available if needed
 import PitchSummaryTable from "./test_PitchSummaryTable";
 import PitchCharts from "./test_PitchCharts";
-import PitchInsights from "./test_PichInsights";
-import TableInsights from "./TableInsights";
 import ChartSelector from "./ChartSelector";
 import CompareTableInsights from "./CompareTableInsights";
 import CompareChartInsights from "./CompareChartInsights";
