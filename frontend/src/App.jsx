@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Analytics } from "@vercel/analytics/next"
 import Banner from './components/Banner';
 import SinglePlayerAnalysis from './components/SinglePlayerAnalysis';
 import SideBySideAnalysis from './components/SideBySideAnalysis';
@@ -69,6 +70,8 @@ function App() {
         {activeView === "sideBySide" && <SideBySideAnalysis />}
         {activeView === "about" && <AboutPage />}
       </div>
+
+      <Analytics />
     </>
   );
 }
