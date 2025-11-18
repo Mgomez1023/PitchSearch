@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 import Banner from './components/Banner';
 import SinglePlayerAnalysis from './components/SinglePlayerAnalysis';
 import SideBySideAnalysis from './components/SideBySideAnalysis';
