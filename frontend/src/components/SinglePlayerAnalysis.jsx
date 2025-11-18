@@ -6,7 +6,7 @@ import PitchCharts from "./test_PitchCharts";
 import PitchInsights from "./test_PichInsights"
 import TableInsights from "./TableInsights";
 import pitchData from '../assets/pitch_data_cache.json';
-import "./SinglePlayerAnalysis.css";
+import "./SInglePlayerAnalysis.css";
 import "./ChartSelector.css";
 
 function SinglePlayerAnalysis() {
