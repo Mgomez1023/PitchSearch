@@ -26,7 +26,7 @@ npm run dev
 7. Project should now be accessible at localhost server
 
 ***If you can't get the project running, I've deployed it on Vercel. It should be accessible via this link: 
-https://pitch-search2.vercel.app/
+https://pitch-search.vercel.app/
 ***
 
 -----Dependency List-----
