@@ -5,8 +5,6 @@ The app displays a clean summary table of all the pitchers data and also puts re
 
 I have also included a side-by-side analysis feature in which the user is able to select two pitchers at a time and view their data next to each other simultaneously. Just like the single player analysis, there is an insights container underneath the data displaying valuable points between the two selected pitchers. 
 
-
-
 -----HOW TO RUN-----
 1. Open Terminal to a folder you want the project in 
 
@@ -27,7 +25,9 @@ npm run dev
 
 7. Project should now be accessible at localhost server
 
-
+***If you can't get the project running, I've deployed it on Vercel. It should be accessible via this link: 
+https://pitch-search2.vercel.app/
+***
 
 -----Dependency List-----
     "@tailwindcss/vite": "^4.1.17",
