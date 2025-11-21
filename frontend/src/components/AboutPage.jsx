@@ -31,13 +31,13 @@ function AboutPage() {
           Outside of programming, baseball has always been a major part of my life. 
             I've personally played the sport since I was three and come from a 
             heavy baseball background with my dad and sisters playing as well. 
-            Baseball will always be very special to me. 
+            Baseball will always be special to me. 
         </p>
 
 
         <p className="about-text">
           {/* Replace this with your own content */}
-          This is why I am excited about an internship with the Nationals. Im excited to share my skills, work ethic, and perspective so I can make an impact 
+          That's is why I am excited about an internship with the Nationals. Im excited to share my skills, work ethic, and perspective so I can make an impact 
           in a field im very passionate about.
         </p>
 
