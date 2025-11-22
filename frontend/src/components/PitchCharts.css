@@ -8,3 +8,7 @@
 .bar-label {
     margin-top: 10px;
 }
+
+.recharts-tooltip-label {
+    color: rgb(29, 29, 29);
+}

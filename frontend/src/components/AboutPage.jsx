@@ -29,7 +29,7 @@ function AboutPage() {
           to graduate in May 2027.
           I have hands-on experience with WordPress, React, JavaScript, HTML/CSS, C++, and SQL and I've enjoyed building apps that are both functional and user-centerd.
           Outside of programming, baseball has always been a major part of my life. 
-            I've personally played the sport since I was three and come from a 
+            I've personally played the sport since I was three and I come from a 
             heavy baseball background with my dad and sisters playing as well. 
             Baseball will always be special to me. 
         </p>

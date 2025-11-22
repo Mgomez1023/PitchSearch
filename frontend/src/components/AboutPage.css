@@ -69,6 +69,7 @@
 
 .top-right-icons {
   display: flex;
+  gap: 10px;
   justify-content: center;
   align-content: center;
 }
