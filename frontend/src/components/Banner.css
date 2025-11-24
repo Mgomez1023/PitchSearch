@@ -42,3 +42,11 @@
   font-weight: bold;
   letter-spacing: 0.5px;
 }
+
+
+.random-text {
+  font-size: 0.9rem;
+  color: #ffcc00;
+  margin: auto 0 auto 20px;
+  font-style: italic;
+}

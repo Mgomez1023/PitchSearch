@@ -15,6 +15,8 @@ function Banner({ logoSrc, titleText, onMenuClick }) {
 
       <h1 className="banner-title">{titleText}</h1>
 
+      <p className="random-text">*Randomized Data</p>
+
     </header>
   );
 }
